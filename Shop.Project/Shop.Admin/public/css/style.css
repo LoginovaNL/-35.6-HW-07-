@@ -28,10 +28,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 40px;
 }
-
-/*
-product item
- */
 .product-item {
     display: flex;
 }
@@ -60,9 +56,6 @@ product item
     font-weight: 600;
 }
 
-/*
-product search
- */
 .products-search-form {
     margin-bottom: 40px;
 }
@@ -78,9 +71,6 @@ product search
     margin-bottom: 5px;
 }
 
-/*
-product edit
- */
 .product-edit-fields {
     width: 50%;
 }
@@ -99,9 +89,6 @@ product edit
     margin-bottom: 5px;
 }
 
-/*
-product comments
- */
 .product-edit-comments .product-comment {
     margin-bottom: 20px;
 }
@@ -116,9 +103,6 @@ product comments
     text-align: right;
 }
 
-/*
-product images
- */
 .product-edit-images {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
