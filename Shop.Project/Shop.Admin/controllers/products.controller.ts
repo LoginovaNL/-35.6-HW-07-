@@ -59,10 +59,6 @@ productsRouter.get('/remove-product/:id', async (
   res: Response
 ) => {
   try {
-    /**
-     * 35.4.3
-     * запрет на удаление товара любым пользователям, кроме admin
-     */
     if (req.session.username !== "admin") {
       res.status(403);
       res.send("Forbidden");
